@@ -70,7 +70,7 @@ h2 {
 
 .box-white-shadow {
   background: white;
-  margin: 50px 100px;
+  margin: 10px 20px;
   padding: 50px 30px;
   box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
   border-radius: 3px;
