@@ -3,7 +3,7 @@
 @media (min-width: 1201px) {
   /* Pour un écran < 960px, cette classe CSS s'applique */
   .container {
-    width: 1000px;
+    width: fit-content;
     margin: 0 auto;
 
   }
@@ -12,7 +12,7 @@
 @media (max-width: 1200px) {
   /* Pour un écran < 960px, cette classe CSS s'applique */
   .container {
-    width: 1000px;
+    width: fit-content;
     margin: 0 auto;
   }
 }
@@ -20,7 +20,7 @@
 @media (max-width: 768px) {
   /* Pour un écran < 720px, cette classe CSS s'applique */
   .container {
-    width: 600px;
+    width: fit-content;
     margin: 0 auto;
   }
 }
@@ -28,14 +28,14 @@
 @media (max-width: 425px) {
   /* Pour un écran < 540px, cette classe CSS s'applique */
   .container {
-    width: 300px;
+    width: fit-content;
     margin: 0 auto;
   }
 }
 @media (max-width: 320px) {
   /* Pour un écran < 540px, cette classe CSS s'applique */
   .container {
-    width: 250px;
+    width: fit-content;
     margin: 0 auto;
   }
 }
