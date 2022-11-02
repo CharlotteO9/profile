@@ -9,18 +9,10 @@
   }
 }
 
-@media (max-width: 320px) {
-  /* Pour un écran < 540px, cette classe CSS s'applique */
+@media (max-width: 1200px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
   .container {
-    width: 250px;
-    margin: 0 auto;
-  }
-}
-
-@media (max-width: 425px) {
-  /* Pour un écran < 540px, cette classe CSS s'applique */
-  .container {
-    width: 300px;
+    width: 1000px;
     margin: 0 auto;
   }
 }
@@ -33,10 +25,17 @@
   }
 }
 
-@media (max-width: 1200px) {
-  /* Pour un écran < 960px, cette classe CSS s'applique */
+@media (max-width: 425px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
   .container {
-    width: 1000px;
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 320px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 250px;
     margin: 0 auto;
   }
 }
