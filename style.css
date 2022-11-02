@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Quicksand:wght@300&display=swap');
 
-@media (max-width: 960px) {
-  /* Pour un écran < 960px, cette classe CSS s'applique */
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
   .container {
-    width: 700px;
-    margin: 0 auto;
+    width: 300px;
   }
 }
 
@@ -12,16 +11,18 @@
   /* Pour un écran < 720px, cette classe CSS s'applique */
   .container {
     width: 500px;
-    margin: 0 auto;
   }
 }
 
-@media (max-width: 540px) {
-  /* Pour un écran < 540px, cette classe CSS s'applique */
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
   .container {
-    width: 300px;
-    margin: 0 auto;
+    width: 700px;
   }
+}
+
+.container {
+  margin: 0 auto;
 }
 
 body {
